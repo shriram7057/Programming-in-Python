@@ -1,0 +1,163 @@
+Strings:
+=========
+- String linear data structure in Python.
+- Collection of characters is known as String.
+- String are group of characters.
+- In python, we can represent string using either single or double quotation.
+- String are immutable, it means once it is created you cannot change it later.
+- String can have positive and negative indexes.
+- Positive index should begin with 0 and end with size-1.
+- Negative index should start with -1 from last character.
+- Predefined class for string is 'str'.
+- Example:
+	str1="Hello VJTech";
+	print(str1);
+	str2='Hello World';
+	print(str2);
+	print("Class of str1 variable=",type(str1));
+
+- str is a predefined class.
+- we can create string object using constructor of str class.
+	s1=str();		 #empty string object s1 
+	s2=str("VJTech");#Creates string object for VJTech
+
+Methods:
+---------
+1) len() - It will return the no of characters in a string.
+- Example:
+		s1="VJTech";
+		print("Length of string=",len(s1));
+- Output:
+		Length of string= 6
+		
+2) min() - It returns smallest character in a string. It will consider ASCII value.
+- Example:
+		s1="VJTech";
+		print("Smallest character =",min(s1));
+- Output:
+		Smallest character = J
+
+3) max() - It returns largest character in a string. It will consider ASCII value.
+- Example:
+		s1="VJTech";
+		print("Smallest character =",min(s1));
+- Output:
+		Largest character = h
+
+4) del() - We can delete entire string using del keyword.
+- Example:
+		s1="VJTech";
+		del s1;
+		print(s1);
+- Output:
+		Traceback (most recent call last):
+		  File "main.py", line 3, in <module>
+			print(s1);
+		NameError: name 's1' is not defined
+	
+5) + Operator - The concatenation operator(+) is used to join two strings.
+- Example:
+		s1="VJTech";
+		s2="Academy";
+		s3=s1+s2;
+		print(s3);
+- Output:
+		Concatenated String: VJTechAcademy
+		
+6) * Operator - The multiplication(*) operator is used to concatenate the same string multiple times. It is called as repetition operator.
+- Example:
+		s1="VJTech";
+		print(s1*5);
+- Output:
+		VJTechVJTechVJTechVJTechVJTech
+
+7) String Traversal - Traversal is a process in which we caccess all the elements of the string one by one.
+
+- Example:
+		s1="VJTech";
+		for i in s1:
+			print(i,end="");
+		
+- Output:
+		VJTech
+	
+8) String slicing- We can retrive piece or subset of given string using slicing operation.
+	StringName[start_index:end_index]
+- Example:
+		s1="VJTech";
+		print(s1[2:6]);
+		
+- Output:
+		Tech
+
+8) capitalize()- Makes the first letter of the string capital.
+
+- Example:
+		s1="vjtech academy";
+		print(s1.capitalize());
+		
+- Output:
+		Vjtech academy
+		
+9) islower()- it will return true if all characters of the string in lower case letter otherwise it will return false.
+
+- Example:
+		s1="vjtech academy";
+		print(s1.islower());
+		
+- Output:
+		True
+		
+9) isupper()- it will return true if all characters of the string in upper case letter otherwise it will return false.
+
+- Example:
+		s1="VJTECH";
+		print(s1.isupper());
+		
+- Output:
+		True
+		
+10) isnumeric()- it will return true if it contains numberic values otherwise it will return false.
+
+- Example:
+		s1="12345";
+		print(s1.isnumeric());
+		
+- Output:
+		True
+		
+11) isspace()- it will return true if it contains only white spaces otherwise it will return false.
+
+- Example:
+		s1="   ";
+		print(s1.isspace());
+		
+- Output:
+		True
+
+12) isdigits()- it will return true if it contains only digits otherwise it will return false.
+
+- Example:
+		s1="12345";
+		print(s1.isdigits());
+		
+- Output:
+		True
+		
+13) isalpha()- it will return true if it contains only alphabets otherwise it will return false.
+
+- Example:
+		s1="vjtech";
+		print(s1.isalpha());
+		
+- Output:
+		True
+		
+14) isalnum()- it will return true if it contains alphabets and numbers otherwise it will return false.
+
+- Example:
+		s1="vjtech123";
+		print(s1.isalnum());
+		
+- Output:
+		True

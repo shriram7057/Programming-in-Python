@@ -1,0 +1,127 @@
+=============================================
+UNIT-V  Object Oriented Programming in Python
+=============================================
+Syntax: Class Declaration
+-------------------------
+	class ClassName:
+		#list of class variables
+		#list of class constructor
+		#Class Method Definition
+
+Example:
+--------
+	class Student:
+		def getdata(self):
+		     self.rollno=1010;
+			 self.name="Dennis";
+			 self.marks=98.99;
+		def display(self):
+			print("Student Roll No:",self.rollno);
+			print("Student Name:",self.name);
+			print("Student Marks:",self.marks);
+
+Syntax: Object Creation
+-----------------------
+	ObjectName=className();
+Example:
+--------
+	s1=Student();
+
+Syntax: How to access member of the class:
+-------------------------------------------
+	ObjectName.MemberOfClass
+	
+Example:
+--------
+	s1.getdata();
+	s1.display();
+	
+constructor:
+============
+- Constructor is a special method of the class.
+- In python __init__() method is called constructor.
+- Syntax:
+	def __init__(self):
+		#body of constructor
+
+Class Attributes:
+===================
+__dict__ : display dictionary in which class namespaces is stored.
+__name__ : it display name of the class.
+__bases__ : it display tuple which contains name of the base classes.
+__doc__ : it display documentation string.
+__module__ : name of the module in which class is defined.
+
+============================
+Inheritance
+============================
+- The process of creating new class by using the concept of old class is known as Inheritance.
+- Syntax:
+	class A:
+		#properties of class A
+	class B(A):
+		#properties of class B 
+		#Inherited properties of class A 
+
+Single Inheritance:
+-----------------------
+- To create new class from only one base class is known as Single Inheritance.
+
+Method Overriding
+==================
+
+Composition Classes:
+====================
+- In Composition, we do not inherit from the base class but establish relationships between classes through the use of instance variables.
+- Composition also reflects the relationships between the parts, called as "has-a" relationships.
+- Composition enables creating complex types by combining objects of other types.
+- This means, class composite can contain an object of another class component.
+- The composite side can express cardinality of the relationship.
+- The cardinality indicates the number or valid range of component instances.
+- Cardinality can expressed in the following ways:
+1) A number indicate the number of component instances that are contained in the composite. The * symbol indicates that the composite class can contain variable number of component instances.
+2) A range 1..4 indicates that the composite class can contain range of component instances. The range is indicated with the minimum and maximum number of instances.
+
+Syntax:
+---------
+	Class GenericClass:
+		#define some attributes and methods
+	Class ASpecificClass:
+	    Instance_Variable_of_Generic_Class=GenericClass;
+		#use this instance somewhere in the class
+		some_method(Instance_Variable_of_Generic_Class);
+Example:
+---------
+#for composition
+class Gmail:
+    def send_email(self,msg):
+        print("Sending {} from gmail".format(msg));
+class Yahoo:
+    def send_email(self,msg):
+        print("Sending {} from Yahoo".format(msg));
+
+class Email:
+    provider=Gmail();
+    def set_provider(self,p):
+        self.provider=p;
+    def send_email(self,msg):
+        self.provider.send_email(msg);
+
+client1=Email();
+client1.send_email("Hello");
+client1.set_provider(Yahoo());
+client1.send_email("Hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
