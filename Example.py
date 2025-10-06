@@ -1,4 +1,4 @@
 x=10
-y="shriram"
+y="Shriram"
 print(x)
 # print(y)
