@@ -29,20 +29,6 @@ This space showcases my learning journey, projects, and experiments with differe
 
 ⚡ Fun Fact: I love turning simple ideas into working programs!
 
-🛠️ Tech Stack
-Languages
-
-✔️ Python
-✔️ C / C++ (basic)
-✔️ Markdown
-
-Tools & Platforms
-
-✔️ Git & GitHub
-✔️ PyCharm
-✔️ VS Code
-✔️ Jupyter Notebook
-
 Concepts
 
 ✔️ OOP
