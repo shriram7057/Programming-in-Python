@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="130" />
+  <img src="https://github.com/shriram7057/shriram7057/blob/main/Python.gif?raw=true" width="500" />
 </p>
 
 <h1 align="center">Coding in Python 🐍🚀</h1>
@@ -12,10 +12,6 @@
 
 Welcome to **Coding-in-Python** — a hands-on hub for building Python skills from core syntax through real-world applications.
 
-> _“Write Python code you’re proud of, not just code that works.”_
-
----
-
 ## 🚀 Why This Repository?
 
 This repository is designed for learners who want to deepen their Python knowledge.  
@@ -27,17 +23,6 @@ Here’s what you’ll find inside:
 - Clean, organised code ready for you to explore & extend  
 
 ---
-## 📣 Connect with Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/shriram-lahane-12b692385/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" />
-  </a>
-
-  <a href="https://github.com/shriram7057" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" />
-  </a>
-</p>
 
 ## 📁 Repository Structure
 
@@ -48,4 +33,17 @@ Here’s what you’ll find inside:
    ├─ Advanced/           – Async programming, decorators, metaclasses  
    ├─ Projects/           – Mini-projects (web scraping, automation, etc.)  
    ├─ utils/              – Helper scripts, reusable functions (if any)  
-   └─ README.md           – You’re reading it now 😉  
+   └─ README.md           – You’re reading it now 😉
+```
+## 🤝 Let's Connect!
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shriram7057)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriram-lahane/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/shriram_lahane/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/pvy.shree_01/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/shriram01)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lahaneshriram2@gmail.com)
+
+</div>
+
