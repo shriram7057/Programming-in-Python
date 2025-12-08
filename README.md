@@ -10,31 +10,67 @@
 
 
 
-Welcome to **Coding-in-Python** — a hands-on hub for building Python skills from core syntax through real-world applications.
+👋 Hi, I’m Shriram
+🚀 Python Developer | DSA Learner | Tech Enthusiast
 
-## 🚀 Why This Repository?
+Welcome to my GitHub profile!
+I love building impactful Python programs, exploring Data Structures & Algorithms, and continuously improving my development skills.
+This space showcases my learning journey, projects, and experiments with different technologies.
 
-This repository is designed for learners who want to deepen their Python knowledge.  
-Here’s what you’ll find inside:
+🧠 About Me
 
-- Core Python fundamentals (variables, functions, classes, modules)  
-- Modern Python features (type hints, async/await, dataclasses)  
-- Real-world mini-projects and practical examples  
-- Clean, organised code ready for you to explore & extend  
+🔭 Currently learning Advanced Python & DSA
 
----
+📘 Exploring OOP, Modules, Algorithms, Turtle Graphics
 
-## 📁 Repository Structure
+🛠 Practicing problem-solving and clean code
 
-```text
-📁 Coding-in-Python/
-   ├─ Basics/             – Python fundamentals & starter programs  
-   ├─ Intermediate/       – Modules, packages, error handling, file I/O  
-   ├─ Advanced/           – Async programming, decorators, metaclasses  
-   ├─ Projects/           – Mini-projects (web scraping, automation, etc.)  
-   ├─ utils/              – Helper scripts, reusable functions (if any)  
-   └─ README.md           – You’re reading it now 😉
-```
+🎯 Goal: Become a skilled backend developer
+
+⚡ Fun Fact: I love turning simple ideas into working programs!
+
+🛠️ Tech Stack
+Languages
+
+✔️ Python
+✔️ C / C++ (basic)
+✔️ Markdown
+
+Tools & Platforms
+
+✔️ Git & GitHub
+✔️ PyCharm
+✔️ VS Code
+✔️ Jupyter Notebook
+
+Concepts
+
+✔️ OOP
+✔️ DSA with Python
+✔️ File Handling
+✔️ Modules & Packages
+✔️ Pattern Programming
+✔️ Turtle Graphics
+
+📂 My Python Repository Highlights
+
+Here are some of the folders you’ll find in my Python repo:
+
+Constructor – Understanding object creation and initialization
+
+DSA_with_PYTHON – Implementations of algorithms & data structures
+
+Functions – Practice with Python function fundamentals
+
+Modules – Using built-in and custom modules
+
+OOP Concepts – Classes, inheritance, polymorphism & more
+
+Patterns – Loop-based patterns and logic building
+
+Turtle_Graphics – Fun visual programs with Python Turtle
+
+Term_Works – Academic programs & assignments
 ## 🤝 Let's Connect!
 <div align="center">
 
