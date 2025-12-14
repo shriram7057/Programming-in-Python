@@ -2,7 +2,7 @@
   <img src="https://github.com/shriram7057/shriram7057/blob/main/Python.gif?raw=true" width="500" />
 </p>
 
-<h1 align="center">Coding in Python 🐍🚀</h1>
+<h1 Programming in Python 🐍🚀</h1>
 
 <p align="center">
   Automation • Problem Solving • Data Structures • Scripting  
